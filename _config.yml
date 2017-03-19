@@ -10,9 +10,9 @@ encoding: utf-8
 title:               My Website
 #tagline:             'foo's website
 description:         Foo's blog...
-url: https://lanyon-plus.sbamin.com
+url: https://ig248.github.io/
 baseurl: ""
-urlimg: https://lanyon-plus.sbamin.com/images/
+urlimg: https://ig248.github.io/images/
 ## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
 #url: https://dyndna.github.io/lanyon-plus
 #baseurl: "/lanyon-plus"
@@ -49,7 +49,7 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 # About/contact
 author:
   name:              Foo Boo
-  url:               https://twitter.com/abcd
+  url:               https://ig248.github.io/
   avatar:         foo.png
   #email:           
 
@@ -61,9 +61,10 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        abcd
+  twitter:        
   facebook:       
-  github:         xyz123abc
+  github:         ig248
+  gitlab:         ig248
   stackexchange:  
   linkedin:       https://www.linkedin.com/in/foo
   instagram:      
@@ -106,12 +107,12 @@ links:
 #twitter_widget_id: xyz123abc
 
 # Add disqus username for Disqus comment board:
-disqus_shortname: foo
+#disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
 
 #### For dummy website only - remove if you wish ####
-github_repo: https://github.com/dyndna/lanyon-plus
-version: 1.1.1
+#github_repo: https://github.com/dyndna/lanyon-plus
+#version: 1.1.1
 ## END ##
