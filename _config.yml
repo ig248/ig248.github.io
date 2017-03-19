@@ -24,7 +24,7 @@ excerpt_separator: <!--more-->
 default_bg: sitebg.jpg
 default_logo: sitelogo.png
 safe: false
-#timezone:    America/Chicago
+timezone:    Europe/London
 future:      true
 
 
@@ -39,6 +39,7 @@ gems:
   - kramdown
   - rouge
   - jekyll-mentions
+  - jekyll-last-modified-at
 
 jekyll-mentions:
   base_url: https://twitter.com
