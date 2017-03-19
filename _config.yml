@@ -75,6 +75,9 @@ owner:
   orcid:
   gscholar:
 
+## 'Share' links on every page
+hatesharing: true
+
 ## sidebar links:
 # For external links add external: true
 links:
