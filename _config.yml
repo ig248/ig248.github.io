@@ -9,7 +9,7 @@ encoding: utf-8
 # Setup
 title:               My Website
 #tagline:             'foo's website
-description:         Foo's blog...
+description:         Igor's blog...
 url: https://ig248.github.io/
 baseurl: ""
 urlimg: https://ig248.github.io/images/
@@ -48,14 +48,14 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 
 # About/contact
 author:
-  name:              Foo Boo
+  name:              Igor Gotlibovych
   url:               https://ig248.github.io/
   avatar:         foo.png
   #email:           
 
 # Owner/author information
 owner:
-  name:           Foo Boo
+  name:           Igor Gotlibovych
   avatar:         foo.png
   #email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
@@ -63,17 +63,17 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         ig248
-  gitlab:         ig248
+  github:         https://github.com/ig248/
+  gitlab:         https://gitlab.com/ig248/
   stackexchange:  
-  linkedin:       https://www.linkedin.com/in/foo
+  linkedin:       https://www.linkedin.com/in/igor-gotlibovych-135a4097/
   instagram:      
   flickr:
   tumblr:  
-  google_plus:    https://plus.google.com/+foo
+  google_plus:
   # orcid and google scholar IDs are different than standard username.
-  orcid: xyz123abc
-  gscholar: xyz123abc
+  orcid:
+  gscholar:
 
 ## sidebar links:
 # For external links add external: true
@@ -88,14 +88,14 @@ links:
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
-  - title: <i class="iconside iconm-wordpress"></i> Old Blog
-    url: https://foo.wordpress.com
-    external: true
+#  - title: <i class="iconside iconm-wordpress"></i> Old Blog
+#    url: https://foo.wordpress.com
+#    external: true
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
-  - title: <i class="iconside iconm-twitter"></i> Twitter
-    url: https://twitter.com/abcd
-    external: true
+#  - title: <i class="iconside iconm-twitter"></i> Twitter
+#    url: https://twitter.com/abcd
+#    external: true
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
 
