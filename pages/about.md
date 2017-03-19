@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-show_meta: true
+show_meta: false
 # imagefeature path is relative to images/ directory.
 imagefeature: foo.png
 published: true
