@@ -39,7 +39,6 @@ gems:
   - kramdown
   - rouge
   - jekyll-mentions
-  - jekyll-last-modified-at
 
 jekyll-mentions:
   base_url: https://twitter.com
@@ -111,6 +110,7 @@ links:
 #twitter_widget_id: xyz123abc
 
 # Add disqus username for Disqus comment board:
+comments: false
 #disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
