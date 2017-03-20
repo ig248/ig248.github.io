@@ -10,9 +10,9 @@ encoding: utf-8
 title:               My Website
 #tagline:             'foo's website
 description:         Igor's blog...
-url: https://ig248.github.io
+url: https://ig248.github.io/
 baseurl: ""
-urlimg: https://ig248.github.io/images
+urlimg: https://ig248.github.io/images/
 ## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
 #url: https://dyndna.github.io/lanyon-plus
 #baseurl: "/lanyon-plus"
