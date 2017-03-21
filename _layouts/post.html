@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<!-- Include external js libraries - this should be made conditional-->
+<script src="https://storage.googleapis.com/montco-stats/javascript/vis-4.17.0/dist/vis.js" type="text/javascript"></script>
+<link href="https://storage.googleapis.com/montco-stats/javascript/vis-4.17.0/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+  
 
 <div class="post">
   <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
@@ -49,3 +53,13 @@ layout: default
 <div class="page-break"></div>
 
 {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+
+<!-- include js via jsarr tag  -->
+
+{% for js in page.jsarr %}
+  <script type="text/javascript">
+     {% include {{ js }} %}
+  </script>
+{% endfor %}
+
+<!-- End Stuff for jsarr tag  -->
