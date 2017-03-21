@@ -1,0 +1,497 @@
+# Revit Wavefront OBJ Exporter 2.9.4 - (c) 2016 www.inglegreen.com
+# File Created: 21/03/2017 01:56:15
+
+newmtl SH_resin_Floor
+Ka 0.0000 0.0000 0.0000
+Kd 1 1 1 1.0
+d 1.00
+
+newmtl Finishes_-_Interior_-_Plasterboard
+Ka 0.0000 0.0000 0.0000
+Kd 0.976470588235294 0.976470588235294 0.976470588235294 1.0
+d 1.00
+
+newmtl Concrete_Sand/Cement_Screed
+Ka 0.0000 0.0000 0.0000
+Kd 0.498039215686275 0.498039215686275 0.498039215686275 1.0
+d 1.00
+
+newmtl Default_Wall
+Ka 0.0000 0.0000 0.0000
+Kd 0.501960784313725 0.501960784313725 0.501960784313725 1.0
+d 1.00
+
+newmtl Finishes_-_Exterior_-_Timber_Cladding
+Ka 0.0000 0.0000 0.0000
+Kd 0.501960784313725 0.250980392156863 0.125490196078431 1.0
+d 1.00
+map_Kd textures\woods and plastics.finish carpentry.wood.paneling.1.jpg
+map_bump textures\woods and plastics.finish carpentry.wood.paneling.1.jpg
+
+newmtl Steel-Kohler-NA-Stainless
+Ka 0.0000 0.0000 0.0000
+Kd 0.741176470588235 0.733333333333333 0.725490196078431 1.0
+d 1.00
+
+newmtl Chrome-Kohler-CP-Polished_Chrome
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Finishes_-_Interior_-_Gypsum_Wall_Board
+Ka 0.0000 0.0000 0.0000
+Kd 0.858823529411765 0.858823529411765 0.858823529411765 1.0
+d 1.00
+
+newmtl Gypsum_Wall_Board
+Ka 0.0000 0.0000 0.0000
+Kd 0.976470588235294 0.976470588235294 0.976470588235294 1.0
+d 1.00
+map_Kd textures\finishes.gypsum board.painted.white.jpg
+map_bump textures\finishes.gypsum board.painted.white.jpg
+
+newmtl Roofing_-_Metal_Standing_Seam
+Ka 0.0000 0.0000 0.0000
+Kd 0.682352941176471 0 0 1.0
+d 1.00
+
+newmtl Earth
+Ka 0.0000 0.0000 0.0000
+Kd 0.380392156862745 0.294117647058824 0.243137254901961 1.0
+d 1.00
+map_Kd textures\sitework.planting.gravel.mixed.png
+map_bump textures\sitework.planting.gravel.mixed.png
+
+newmtl Grass
+Ka 0.0000 0.0000 0.0000
+Kd 0.109803921568627 0.137254901960784 0.0588235294117647 1.0
+d 1.00
+map_Kd textures\sitework.planting.grass.thick.png
+map_bump textures\sitework.planting.grass.thick.png
+
+newmtl Concrete_-_Cast-in-Place_Concrete
+Ka 0.0000 0.0000 0.0000
+Kd 0.752941176470588 0.752941176470588 0.752941176470588 1.0
+d 1.00
+map_Kd textures\concrete.cast-in-place.formwork.wood.boards.jpg
+map_bump textures\concrete.cast-in-place.formwork.wood.boards.jpg
+
+newmtl SH_Metal_-_Steel
+Ka 0.0000 0.0000 0.0000
+Kd 0.490196078431373 0.47843137254902 0.466666666666667 1.0
+d 1.00
+map_Kd textures\hone.png
+map_bump textures\hone.png
+
+newmtl Metal_-_TOTO_-_Enameled_-_01_Cotton
+Ka 0.0000 0.0000 0.0000
+Kd 0.866666666666667 0.882352941176471 0.898039215686275 1.0
+d 1.00
+
+newmtl Plastic_-_TOTO_-_01_Cotton
+Ka 0.0000 0.0000 0.0000
+Kd 0.866666666666667 0.882352941176471 0.898039215686275 1.0
+d 1.00
+
+newmtl Door_-_Frame
+Ka 0.0000 0.0000 0.0000
+Kd 0.862745098039216 0.796078431372549 0.666666666666667 1.0
+d 1.00
+
+newmtl Door_-_Panel
+Ka 0.0000 0.0000 0.0000
+Kd 0.862745098039216 0.796078431372549 0.666666666666667 1.0
+d 1.00
+
+newmtl Glass
+Ka 0.0000 0.0000 0.0000
+Kd 0 0.501960784313725 0.752941176470588 1.0
+d 0.10
+
+newmtl SH_Aluminum_Anodized_Black
+Ka 0.0000 0.0000 0.0000
+Kd 0.470588235294118 0.470588235294118 0.470588235294118 1.0
+d 1.00
+
+newmtl Metal_-_Paint_Finish_-_Dark_Gray_Matte
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 1.00
+
+newmtl Wood_Walnut_black
+Ka 0.0000 0.0000 0.0000
+Kd 0.411764705882353 0.376470588235294 0.345098039215686 1.0
+d 1.00
+map_Kd textures\woods & plastics.finish carpentry.wood.walnut.png
+
+newmtl Metal_-_Aluminum
+Ka 0.0000 0.0000 0.0000
+Kd 0.968627450980392 0.968627450980392 0.968627450980392 1.0
+d 1.00
+
+newmtl Default material
+Ka 0.0000 0.0000 0.0000
+Kd 0.588235294117647 0.588235294117647 0.588235294117647 1.0
+d 1.00
+
+newmtl CL_Concrete__panels
+Ka 0.0000 0.0000 0.0000
+Kd 0.741176470588235 0.756862745098039 0.682352941176471 1.0
+d 1.00
+map_Kd textures\concrete.cast-in-place.panels.reveal.smooth.jpg
+map_bump textures\concrete.cast-in-place.panels.reveal.smooth.jpg
+
+newmtl Concrete_Cast_In_Situ
+Ka 0.0000 0.0000 0.0000
+Kd 0.752941176470588 0.752941176470588 0.752941176470588 1.0
+d 1.00
+
+newmtl Site_-_Hardcore
+Ka 0.0000 0.0000 0.0000
+Kd 0.647058823529412 0.164705882352941 0.164705882352941 1.0
+d 1.00
+
+newmtl Porcelain
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Metal_-_Steel_-_345_MPa
+Ka 0.0000 0.0000 0.0000
+Kd 0.968627450980392 0.968627450980392 0.968627450980392 1.0
+d 1.00
+
+newmtl Structure_-_Timber_Joist/Rafter_Layer
+Ka 0.0000 0.0000 0.0000
+Kd 0.498039215686275 0.498039215686275 0.498039215686275 1.0
+d 1.00
+
+newmtl Carpet_(1)
+Ka 0.0000 0.0000 0.0000
+Kd 0.752941176470588 0.737254901960784 0.670588235294118 1.0
+d 1.00
+map_Kd textures\finishes.flooring.carpet.needlepunch.white.jpg
+map_bump textures\finishes.flooring.carpet.needlepunch.white.jpg
+
+newmtl Iron_Cast
+Ka 0.0000 0.0000 0.0000
+Kd 0.470588235294118 0.470588235294118 0.470588235294118 1.0
+d 1.00
+
+newmtl Stainless_Steel_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.741176470588235 0.733333333333333 0.725490196078431 1.0
+d 1.00
+
+newmtl Concrete_-_Cast_In_Situ
+Ka 0.0000 0.0000 0.0000
+Kd 0.752941176470588 0.752941176470588 0.752941176470588 1.0
+d 1.00
+
+newmtl Buttons
+Ka 0.0000 0.0000 0.0000
+Kd 0.992156862745098 0.498039215686275 0 1.0
+d 1.00
+
+newmtl Main_body
+Ka 0.0000 0.0000 0.0000
+Kd 0.992156862745098 0.992156862745098 0.992156862745098 1.0
+d 1.00
+
+newmtl Black_panel
+Ka 0.0000 0.0000 0.0000
+Kd 0.109803921568627 0.109803921568627 0.109803921568627 1.0
+d 1.00
+
+newmtl Logo
+Ka 0.0000 0.0000 0.0000
+Kd 0.749019607843137 0.749019607843137 0.749019607843137 1.0
+d 1.00
+
+newmtl Door
+Ka 0.0000 0.0000 0.0000
+Kd 0.435294117647059 0.494117647058824 0.556862745098039 1.0
+d 1.00
+
+newmtl Silver_Aluminium
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Black_Glass
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 0.70
+
+newmtl Stainless_Steel
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 1.00
+
+newmtl Black_Plastic
+Ka 0.0000 0.0000 0.0000
+Kd 0.0196078431372549 0.0196078431372549 0.0196078431372549 1.0
+d 1.00
+
+newmtl Lighting
+Ka 0.0000 0.0000 0.0000
+Kd 1 0.501960784313725 0 1.0
+d 0.40
+
+newmtl Clean_Steel
+Ka 0.0000 0.0000 0.0000
+Kd 0.741176470588235 0.733333333333333 0.725490196078431 1.0
+d 1.00
+
+newmtl Black_Glass_Pan
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 0.25
+
+newmtl Plastic
+Ka 0.0000 0.0000 0.0000
+Kd 0.698039215686274 0.698039215686274 0.698039215686274 1.0
+d 1.00
+
+newmtl Rubber
+Ka 0.0000 0.0000 0.0000
+Kd 0.537254901960784 0.447058823529412 0.447058823529412 1.0
+d 1.00
+
+newmtl Metal
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Metal_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.752941176470588 0.752941176470588 0.752941176470588 1.0
+d 1.00
+
+newmtl Metal_1
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 0.90
+
+newmtl Cleansteel
+Ka 0.0000 0.0000 0.0000
+Kd 0.741176470588235 0.733333333333333 0.725490196078431 1.0
+d 1.00
+
+newmtl Acetal_Resin_Black
+Ka 0.0000 0.0000 0.0000
+Kd 0.470588235294118 0.470588235294118 0.470588235294118 1.0
+d 1.00
+
+newmtl Terrazzo
+Ka 0.0000 0.0000 0.0000
+Kd 0.470588235294118 0.470588235294118 0.470588235294118 1.0
+d 1.00
+map_Kd textures\finishes.masonry flooring.terrazzo.white.jpg
+
+newmtl Plinth
+Ka 0.0000 0.0000 0.0000
+Kd 0.0196078431372549 0.0196078431372549 0.0196078431372549 1.0
+d 1.00
+
+newmtl Fascia
+Ka 0.0000 0.0000 0.0000
+Kd 0.654901960784314 0.654901960784314 0.654901960784314 1.0
+d 1.00
+
+newmtl Default
+Ka 0.0000 0.0000 0.0000
+Kd 0.498039215686275 0.498039215686275 0.498039215686275 1.0
+d 1.00
+
+newmtl Metal_-_TOTO_-_Chrome_-_Polished
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Epoxy_Resin_-_TOTO_-_61_Angelic_White
+Ka 0.0000 0.0000 0.0000
+Kd 1 1 1 1.0
+d 0.03
+
+newmtl Roofing_-_Asphalt
+Ka 0.0000 0.0000 0.0000
+Kd 0.607843137254902 0.607843137254902 0.607843137254902 1.0
+d 1.00
+map_Kd textures\thermal_ moisture.shingles.rectangle.png
+map_bump textures\thermal_ moisture.shingles.rectangle.png
+
+newmtl Chair_Fabric
+Ka 0.0000 0.0000 0.0000
+Kd 0.0823529411764706 0.0823529411764706 0.0745098039215686 1.0
+d 1.00
+map_Kd textures\furnishings.fabrics.leather.black.png
+map_bump textures\furnishings.fabrics.leather.black.png
+
+newmtl Chair_wood
+Ka 0.0000 0.0000 0.0000
+Kd 0.890196078431373 0.666666666666667 0.501960784313725 1.0
+d 1.00
+map_Kd textures\woods & plastics.finish carpentry.wood.red birch.png
+
+newmtl Glass_Clear_Glazing
+Ka 0.0000 0.0000 0.0000
+Kd 0 0.501960784313725 0.752941176470588 1.0
+d 0.25
+
+newmtl Metal_-_Cooper_Industries_-_Aluminum
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Glass_-_SolarWorld_-_Tempered_Glass
+Ka 0.0000 0.0000 0.0000
+Kd 0.858823529411765 0.858823529411765 0.858823529411765 1.0
+d 0.50
+
+newmtl Metal_-_SolarWorld_-_BackSheet_-_White
+Ka 0.0000 0.0000 0.0000
+Kd 0.901960784313726 0.913725490196078 0.92156862745098 1.0
+d 1.00
+
+newmtl Metal_-_SolarWorld_-_Support_Framing_-_Silver
+Ka 0.0000 0.0000 0.0000
+Kd 0.301960784313725 0.305882352941176 0.290196078431373 1.0
+d 1.00
+map_Kd textures\steelplt.png
+map_bump textures\steelplt.png
+
+newmtl Tankworks_-_Colorbond_-_Pale_Eucalypt
+Ka 0.0000 0.0000 0.0000
+Kd 0.713725490196078 0.647058823529412 0.474509803921569 1.0
+d 1.00
+
+newmtl Glass_White_High_Luminance
+Ka 0.0000 0.0000 0.0000
+Kd 0.470588235294118 0.470588235294118 0.470588235294118 1.0
+d 1.00
+
+newmtl Herman_Miller_-_Seat_Fabric_8T07_Crossing_Pumpkin
+Ka 0.0000 0.0000 0.0000
+Kd 0.741176470588235 0.384313725490196 0.211764705882353 1.0
+d 1.00
+map_Kd textures\furnishings.fabrics.leather.brown.jpg
+map_bump textures\furnishings.fabrics.leather.brown.jpg
+
+newmtl Herman_Miller_-_Veneer_Z5_Maple
+Ka 0.0000 0.0000 0.0000
+Kd 0.454901960784314 0.368627450980392 0.313725490196078 1.0
+d 1.00
+map_Kd textures\woods & plastics.finish carpentry.wood.maple.png
+
+newmtl Wood_-_Medium_Brown
+Ka 0.0000 0.0000 0.0000
+Kd 0.4 0.172549019607843 0.0627450980392157 1.0
+d 1.00
+map_Kd textures\woods & plastics.finish carpentry.wood.red birch.png
+
+newmtl Metal_-_Stainless
+Ka 0.0000 0.0000 0.0000
+Kd 0.968627450980392 0.968627450980392 0.968627450980392 1.0
+d 1.00
+
+newmtl Glass_-_Transparent
+Ka 0.0000 0.0000 0.0000
+Kd 0 0.501960784313725 1 1.0
+d 0.10
+
+newmtl TV_-_Black
+Ka 0.0000 0.0000 0.0000
+Kd 0.192156862745098 0.192156862745098 0.192156862745098 1.0
+d 1.00
+
+newmtl TV_-_Screen
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 1.00
+
+newmtl TV_-_Glass
+Ka 0.0000 0.0000 0.0000
+Kd 0.615686274509804 0.615686274509804 0.615686274509804 1.0
+d 0.10
+
+newmtl Flower
+Ka 0.0000 0.0000 0.0000
+Kd 0.666666666666667 0.168627450980392 0.2 1.0
+d 0.10
+
+newmtl Stem
+Ka 0.0000 0.0000 0.0000
+Kd 0.419607843137255 0.541176470588235 0.403921568627451 1.0
+d 1.00
+map_Kd textures\sitework.planting.grass.thick.light rye.png
+map_bump textures\sitework.planting.grass.thick.light rye.png
+
+newmtl Red_Vase
+Ka 0.0000 0.0000 0.0000
+Kd 0.858823529411765 0.149019607843137 0.203921568627451 1.0
+d 1.00
+
+newmtl Herman_Miller_-_Finish_47_Trivalent_Chrome
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Herman_Miller_-_Finish_PA_Polished_Aluminum
+Ka 0.0000 0.0000 0.0000
+Kd 0.956862745098039 0.956862745098039 0.956862745098039 1.0
+d 1.00
+
+newmtl Leather_-_Tan
+Ka 0.0000 0.0000 0.0000
+Kd 0.368627450980392 0.345098039215686 0.250980392156863 1.0
+d 1.00
+map_Kd textures\
+map_bump Furnishings.Fabrics.Leather.Tan.png%%
+
+newmtl Herman_Miller_-_Veneer_OU_Walnut
+Ka 0.0000 0.0000 0.0000
+Kd 0.411764705882353 0.376470588235294 0.345098039215686 1.0
+d 1.00
+map_Kd textures\woods & plastics.finish carpentry.wood.walnut.png
+
+newmtl Herman_Miller_-_Veneer_UX_Walnut_on_Cherry
+Ka 0.0000 0.0000 0.0000
+Kd 0.411764705882353 0.376470588235294 0.345098039215686 1.0
+d 1.00
+map_Kd textures\woods & plastics.finish carpentry.wood.walnut.png
+
+newmtl Aluminum_Green
+Ka 0.0000 0.0000 0.0000
+Kd 0.898039215686275 0.898039215686275 0.898039215686275 1.0
+d 1.00
+
+newmtl Water
+Ka 0.0000 0.0000 0.0000
+Kd 0.411764705882353 0.949019607843137 0.843137254901961 1.0
+d 0.20
+
+newmtl Green_Glass
+Ka 0.0000 0.0000 0.0000
+Kd 0.674509803921569 0.796078431372549 0.733333333333333 1.0
+d 0.15
+
+newmtl Glass_-_Aalto_-_White_Paint
+Ka 0.0000 0.0000 0.0000
+Kd 0.949019607843137 0.949019607843137 1 1.0
+d 1.00
+
+newmtl Ceramic_Dish
+Ka 0.0000 0.0000 0.0000
+Kd 1 1 1 1.0
+d 1.00
+
+newmtl Juice
+Ka 0.0000 0.0000 0.0000
+Kd 0.76078431372549 0.615686274509804 0.486274509803922 1.0
+d 0.15
+
+newmtl Glass_-_Crystal_Wine_Glass
+Ka 0.0000 0.0000 0.0000
+Kd 0.866666666666667 0.866666666666667 0.866666666666667 1.0
+d 0.15

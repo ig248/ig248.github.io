@@ -24,10 +24,14 @@ summaryfeed: false
 
 # Javascript content
 jsarr:
-- graphs/dag_default.js
-
+    - 3d/three.min.js
+    - 3d/Detector.js
+    - 3d/MTLLoader.js
+    - 3d/OBJLoader.js
+    - 3d/OrbitControls.js
+    - 3d/house.js
 ---
 OK, this is not a 3D model at all - just trying some custom JS. And it doesn't render on the home page yet.
 
 
-<div id="mynetwork" style="width:600px; height:400px"></div>
+<div id="div3d" ></div>
