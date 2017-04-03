@@ -53,9 +53,7 @@ layout: default
 <!-- include js via jsarr tag  -->
 
 {% for js in page.jsarr %}
-  <script type="text/javascript">
-     {% include {{ js }} %}
-  </script>
+  <script src="{{ js }}"></script>
 {% endfor %}
 
 <!-- End Stuff for jsarr tag  -->

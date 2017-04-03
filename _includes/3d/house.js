@@ -53,39 +53,38 @@
             scene.add(fillLight);
             scene.add(backLight);
             /* Model */
+            
+			var onProgress = function ( xhr ) {
+				if ( xhr.lengthComputable ) {
+					var percentComplete = xhr.loaded / xhr.total * 100;
+					console.log( Math.round(percentComplete, 2) + '% downloaded' );
+				}
+			};
 
-            /*
-            var mtlLoader = new THREE.MTLLoader();
-            mtlLoader.setBaseUrl(PATH);
+			var onError = function ( xhr ) { };
+
+			THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
+
+			var mtlLoader = new THREE.MTLLoader();
+			mtlLoader.setBaseUrl(PATH);
             mtlLoader.setPath(PATH);
             mtlLoader.load(SCENE+'.mtl', function (materials) {
-                materials.preload();
-                materials.materials.default.map.magFilter = THREE.NearestFilter;
-                materials.materials.default.map.minFilter = THREE.LinearFilter
-            });
-            */
-            var material2 = new THREE.MeshLambertMaterial({ color: 0x0000ff });
-            var objLoader = new THREE.OBJLoader();
-                //objLoader.setMaterials(materials);
-            objLoader.setPath(PATH);
-            objLoader.load(SCENE+'.obj', function (object, materials) {
-                object.traverse( function(child) {
-                    if (child instanceof THREE.Mesh) {
-                        // apply custom material
-                        child.material = material2;
-                        // enable casting shadows
-                        child.castShadow = true;
-                        child.receiveShadow = true;
-                    }
-                });
-                object.position.x = 0;
-                object.position.y = 0;
-                object.position.z = 0;
-                object.scale.set(0.05, 0.05, 0.05);
 
-                scene.add(object);
-            });
-            
+				materials.preload();
+
+				var objLoader = new THREE.OBJLoader();
+				objLoader.setMaterials( materials );
+				objLoader.setPath(PATH);
+                objLoader.load(SCENE+'.obj', function ( object ) {
+					object.position.x = 0;
+                    object.position.y = 0;
+                    object.position.z = 0;
+                    object.scale.set(0.05, 0.05, 0.05);
+                    scene.add(object);
+
+				}, onProgress, onError );
+
+			});
             
             
 
