@@ -13,10 +13,13 @@ description:         Igor's blog...
 url: https://ig248.github.io
 baseurl: ""
 urlimg: https://ig248.github.io/images/
+jsurl: /js/
+
 ## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
 #url: https://dyndna.github.io/lanyon-plus
 #baseurl: "/lanyon-plus"
 #urlimg: https://dyndna.github.io/lanyon-plus/images/
+
 markdown: kramdown
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -111,7 +114,7 @@ links:
 
 # Add disqus username for Disqus comment board:
 comments: false
-#disqus_shortname: foo
+#disqus_shortname: 
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc

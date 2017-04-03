@@ -22,4 +22,8 @@
 {% endif %}
 
 <!-- disqus comments -->
-{% if page.comments %}{% include disqus_comments.html %}{% endif %}
+{% if site.comments %}
+{% if page.comments %}
+    {% include disqus_comments.html %}
+{% endif %}
+{% endif %}
