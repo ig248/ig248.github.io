@@ -22,8 +22,6 @@
 {% endif %}
 
 <!-- disqus comments -->
-{% if site.comments %}
-{% if page.comments %}
+{% if page.comments and site.comments %}
     {% include disqus_comments.html %}
-{% endif %}
 {% endif %}

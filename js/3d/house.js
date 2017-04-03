@@ -63,7 +63,7 @@
 
 			var onError = function ( xhr ) { };
 
-			THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
+			//THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
 
 			var mtlLoader = new THREE.MTLLoader();
 			mtlLoader.setBaseUrl(PATH);
