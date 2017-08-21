@@ -53,14 +53,15 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 author:
   name:              Igor Gotlibovych
   url:               https://ig248.github.io/
-  avatar:         foo.png
-  #email:           
+  avatar:            foo.png
+  email:             igor.gotlibovych@gmail.com          
 
 # Owner/author information
 owner:
   name:           Igor Gotlibovych
+  url:               https://ig248.github.io/
   avatar:         foo.png
-  #email:          
+  email:          igor.gotlibovych@gmail.com  
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
@@ -106,7 +107,7 @@ links:
     url: /feed.xml
 
 # Google Custom Search:
-#google_search: xyz123abc
+google_search: AIzaSyCKP6o_RLL74W9LdV1Uk74q3t0Cnb3107U
 
 # Twitter stream widget:
 # Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
