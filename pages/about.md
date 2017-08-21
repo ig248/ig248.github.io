@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 show_meta: false
 # imagefeature path is relative to images/ directory.
-imagefeature: foo.png
+imagefeature: avatar.jpg
 published: true
 description: "About ig248"
 category: views
