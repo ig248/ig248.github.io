@@ -3,6 +3,10 @@ layout: default
 permalink: index.html
 title: Personal Homepage of Igor Gotlibovych
 description: "unrelated thoughts..."
+
+mathjax: true
+plotly: true
+threejs: true
 ---
 
 ## Don't expect anything coherent.

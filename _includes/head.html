@@ -98,11 +98,21 @@
 <!-- RSS -->
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
 
-{% if page.mathjax %}
-  {% include mathjax_support.html %}
+{% if page.threejs %}
+  {% include threejs_support.html%}
 {% endif %}
 
 {% if page.plotly %}
   {% include plotly_support.html %}
 {% endif %}
+
+{% if page.mathjax %}
+  {% include mathjax_support.html %}
+{% endif %}
+
+<!-- include js via jsarr tag  -->
+{% for js in page.jsarr %}
+  <script src="{{ site.jsurl }}{{ js }}"></script>
+{% endfor %}
+
 </head>

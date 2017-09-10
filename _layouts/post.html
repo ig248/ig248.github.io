@@ -50,10 +50,3 @@ layout: default
 
 {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
 
-<!-- include js via jsarr tag  -->
-
-{% for js in page.jsarr %}
-  <script src="{{ site.jsurl }}{{ js }}"></script>
-{% endfor %}
-
-<!-- End Stuff for jsarr tag  -->
