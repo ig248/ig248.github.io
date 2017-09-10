@@ -9,9 +9,9 @@ plotly: true
 threejs: true
 ---
 
-## Don't expect anything coherent.
-
-Just a place to experiment with some front-end stuff and write down some thoughts.
+<blockquote class="style1">
+Don't panic
+</blockquote>
 
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
