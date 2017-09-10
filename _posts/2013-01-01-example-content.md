@@ -15,7 +15,7 @@ show_meta: true
 comments: true
 mathjax: true
 gistembed: true
-published: true
+published: false
 noindex: false
 nofollow: false
 # hide QR code, permalink block while printing.

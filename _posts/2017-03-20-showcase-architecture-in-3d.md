@@ -9,10 +9,9 @@ category:
 # tags will also be used as html meta keywords.
 tags:
   - 3d
-  - JS
+  - JavaScript
 show_meta: true
 comments: true
-mathjax: true
 gistembed: true
 published: true
 noindex: false
@@ -22,21 +21,17 @@ hide_printmsg: false
 # show post summary or full post in RSS feed.
 summaryfeed: false
 
-# Javascript content
-jsarr:
-    - 3d/three.min.js
-    - 3d/Detector.js
-    - 3d/MTLLoader.js
-    - 3d/OBJLoader.js
-    - 3d/OrbitControls.js
-    - 3d/house.js
+threejs: true
 ---
+
+<div id="div3d" ></div>
+<script src="{{ site.jsurl }}3d/house.js"></script> 
+
+<!--more-->
 
 A recent conversation with an architect friend made me think that it should be possible to use HTML+JS to share interactive CAD models and designs online. Luckily, I did not have to re-invent the wheel too much: Three.js is just the tool for the job. However, getting all the parts to work in a Jekyll blog took some trial and error (and is still work-in-progress).
 
-Below is a test model that I have exported from Revit:
-
-<div id="div3d" ></div>
+I have exported the test model and textures from Revit:
 
 Having barely used JavaScript *or* Jekyll before, it has been a good crash course in several technologies. Plus, preparing the model required some work on the back end which I will outline later.
 
