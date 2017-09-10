@@ -33,6 +33,7 @@ The only feature I missed was the ability to create posts from notebooks with in
 
 <div id="25d25829-71c7-4986-9ecd-221b42db4d9e" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("25d25829-71c7-4986-9ecd-221b42db4d9e", [{"y": [0, 2, 1, 4], "x": [0, 1, 2, 4]}], {}, {"linkText": "Export to plot.ly", "showLink": true})});</script>
 
+Since it took me a while to get everything working, I decided to keep this post for future record - and maybe save someone else a bit of time.
 <!--more-->
 
 ## Generating the plot
