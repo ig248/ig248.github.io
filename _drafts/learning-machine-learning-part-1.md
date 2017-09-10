@@ -3,9 +3,11 @@ plotly: true
 mathjax: true
 ---
 
-## Test Mathjax
-This is a simple equation:
+This is a preview block.
+<!--more-->
 
+## Test Mathjax
+This is a simple inline equation: $x=y^2$. And below is an equation:
 $$x=y^2$$
 
 ## Test plotly

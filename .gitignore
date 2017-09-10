@@ -42,3 +42,5 @@ node_modules
 bower_components
 
 Gemfile.lock
+
+_notebooks/\.ipynb_checkpoints/
