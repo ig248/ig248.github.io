@@ -4,6 +4,7 @@ gem 'nokogiri', '= 1.6.8.1'
 
 group :jekyll_plugins do
 gem 'github-pages', '>= 93'
+gem 'jekyll-seo-tag', '>=2.4.0'
 # gem 'jekyll', '>= 3.2'
 # gem 'jekyll-paginate', '>= 1.1.0'
 # gem 'jemoji', '>= 0.7.0'
