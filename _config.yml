@@ -42,7 +42,6 @@ gems:
   - kramdown
   - rouge
   - jekyll-mentions
-  - jekyll-seo-tag
 
 jekyll-mentions:
   base_url: https://twitter.com
@@ -120,7 +119,7 @@ comments: false
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
-
+google_verify: 4ccU14tr4Qu1fa6pi-YPK3M1v4_5u7y1LpdxGK9tKiI
 #### For dummy website only - remove if you wish ####
 #github_repo: https://github.com/dyndna/lanyon-plus
 #version: 1.1.1
